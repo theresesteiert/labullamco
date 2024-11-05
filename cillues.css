@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.element {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    right: 20px; /* 20px from the right edge of .container */
+    top: 20px; /* 20px from the top edge of .container */
+}
